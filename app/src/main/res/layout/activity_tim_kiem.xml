@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.santteam.TimKiemActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mauBackgroundMenuTren"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgBtnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@color/mauBackgroundMenuTren"
+            app:srcCompat="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/chieucao_menu"
+            android:gravity="center"
+            android:paddingRight="30dp"
+            android:text="Tìm kiếm"
+            android:textColor="@color/mauTextMenuTren"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/chieu_cao_tim_kiem"
+        android:background="@color/mauMenuTimKiem"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="@dimen/kich_thuoc_icon"
+            android:layout_height="@dimen/kich_thuoc_icon"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@color/mauMenuTimKiem"
+            app:srcCompat="@drawable/icon_filter" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Tìm bạn ngay..."
+            android:inputType="textPersonName" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="@dimen/kich_thuoc_icon"
+            android:layout_height="@dimen/kich_thuoc_icon"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:background="@color/mauMenuTimKiem"
+            app:srcCompat="@drawable/icon_search" />
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Có thể bạn cần?"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <GridView
+            android:id="@+id/gvUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:horizontalSpacing="20dp"
+            android:numColumns="3"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:verticalSpacing="45dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginBottom">10dp</dimen>
+    <dimen name="marginTop">20dp</dimen>
+    <dimen name="hight">30dp</dimen>
+    <dimen name="button">50dp</dimen>
+    <dimen name="tv">60dp</dimen>
+    <dimen name="margin_top">40dp</dimen>
+    <dimen name="margin_left">15dp</dimen>
+    <dimen name="margin_right">15dp</dimen>
+    <dimen name="margin_top1">15dp</dimen>
+    <dimen name="margin_bottom">15dp</dimen>
+    <dimen name="chieucao_menu">50dp</dimen>
+    <dimen name="kich_thuoc_icon">35dp</dimen>
+    <dimen name="chieu_cao_tim_kiem">60dp</dimen>
+    <dimen name="kich_thuoc_anh">100dp</dimen>
+    <dimen name="khoang_cach_trai">30dp</dimen>
+    <dimen name="khoang_cach_giua">25dp</dimen>
+    <dimen name="khoang_cach_tren">30dp</dimen>
+    <dimen name="do_rong_thuoc_tinh">30dp</dimen>
+    <dimen name="demen1">90dp</dimen>
+    <dimen name="demenicon">37dp</dimen>
+    <dimen name="demenspace_name">40dp</dimen>
+    <dimen name="demen_caochat">60dp</dimen>
+    <dimen name="demen_daichat">250dp</dimen>
+</resources>

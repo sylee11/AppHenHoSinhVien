@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rl_tren"
+        android:background="@color/green"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            android:layout_width="@dimen/demenicon"
+            android:layout_height="@dimen/demenicon" />
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Messenger"
+            android:layout_width="200dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_centerInParent="true"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="@drawable/find"
+            android:layout_width="@dimen/demenicon"
+            android:layout_height="@dimen/demenicon" />
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/lv_list"
+        android:layout_above="@+id/rl_duoi"
+        android:layout_below="@+id/rl_tren"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+
+    <RelativeLayout
+        android:id="@+id/rl_duoi"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/green">
+
+        <Button
+            android:layout_width="@dimen/demenicon"
+            android:layout_height="@dimen/demenicon"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/love" />
+
+        <Button
+            android:layout_width="@dimen/demenicon"
+            android:layout_height="@dimen/demenicon"
+            android:layout_centerInParent="true"
+            android:background="@drawable/add" />
+
+        <Button
+            android:layout_width="@dimen/demenicon"
+            android:layout_height="@dimen/demenicon"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/setting" />
+    </RelativeLayout>
+
+</RelativeLayout>

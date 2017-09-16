@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical"
+    tools:context="com.santteam.apphenhosinhvien.MainActivity">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:gravity="left"
+        android:background="@color/coloMain"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:id="@+id/imvAnhDaiDien"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_weight="0.08"
+            android:background="@drawable/duongvien_goctron"
+            app:srcCompat="@drawable/avarta3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvTen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sant Team ZoZo"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.08"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/iconmenu"
+            android:background="@color/coloMain"/>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imgBtnKetBan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/circle"
+            app:srcCompat="@drawable/menuketban4" />
+
+        <ImageButton
+            android:id="@+id/imgBtnTimKiem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle"
+            app:srcCompat="@drawable/menutimkiem"
+            android:layout_marginBottom="19dp"
+            android:layout_above="@+id/imgBtnKetBan"
+            android:layout_alignRight="@+id/imgBtnKetBan"
+            android:layout_alignEnd="@+id/imgBtnKetBan" />
+
+        <ImageButton
+            android:id="@+id/imgBtnDanhSach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="47dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:background="@drawable/circle"
+            app:srcCompat="@drawable/menuadanhsach"
+            android:layout_alignBottom="@+id/imgBtnTinNhan"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageButton
+            android:id="@+id/imgBtnTinNhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="66dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            app:srcCompat="@drawable/menunhantin2"
+            android:background="@drawable/circle"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:id="@+id/imgBtnYeuThich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/menuyeuthich"
+            android:background="@drawable/circle"
+            android:layout_marginTop="18dp"
+            android:layout_alignTop="@+id/imgBtnTimKiem"
+            android:layout_alignRight="@+id/imgBtnTinNhan"
+            android:layout_alignEnd="@+id/imgBtnTinNhan" />
+
+    </RelativeLayout>
+
+</LinearLayout>

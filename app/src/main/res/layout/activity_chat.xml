@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rl_tren2"
+        android:background="@color/green"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <Button
+
+            android:layout_marginLeft="5dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/back2"
+            android:layout_width="@dimen/demenicon"
+            android:layout_height="@dimen/demenicon"
+            android:id="@+id/btn_backchat" />
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_centerInParent="true"
+            android:text="Nguyễn Thị Nam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_margin="10dp"
+            android:background="@drawable/loc"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignBaseline="@+id/button"
+            android:layout_alignBottom="@+id/button"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:background="@color/xam"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_tren2"
+        android:layout_above="@+id/rl_duoi2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/gai3"
+                android:layout_gravity="bottom"/>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:gravity="center"
+                android:text="Hello !!"
+                android:layout_gravity="bottom"
+                android:textColor="@color/white"
+                android:background="@drawable/vo_canh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="right|center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:gravity="center"
+                android:text="Hello !!"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/white"
+                android:background="@drawable/vo_canh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/gai3"
+                app:srcCompat="@drawable/gai3"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="bottom"/>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+                android:background="@drawable/vo_canh"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:gravity="center"
+                android:text="What Your Name?"
+                android:layout_gravity="bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right|center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/vo_canh"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="My name is Hoa. and you?"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/gai3"
+                app:srcCompat="@drawable/gai3" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/vo_canh"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Tuyển , I love You. hihi"
+                    android:textColor="@color/white" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/vo_canh"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Tuyển , I love You. hihi"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="right|center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:gravity="center"
+                android:layout_gravity="bottom"
+                android:text="Uhhh. I like it &lt;3 .."
+                android:layout_marginRight="10dp"
+                android:textColor="@color/white"
+                android:background="@drawable/vo_canh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/rl_duoi2"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/aae"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <Button
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/camera_sam"
+                android:layout_width="@dimen/demenicon"
+                android:layout_height="@dimen/demenicon" />
+            <Button
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/youtube"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <Button
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/mat_cuoi"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <Button
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/image"
+                android:layout_width="@dimen/demenicon"
+                android:layout_height="@dimen/demenicon" />
+            <Button
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/sao__"
+                android:layout_width="@dimen/demenicon"
+                android:layout_height="@dimen/demenicon" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <EditText
+                android:paddingLeft="10dp"
+                android:background="@color/white"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:hint="Nhập tin nhắn . . ."
+                android:layout_centerInParent="true"
+                android:layout_width="270dp"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/send_sam"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <Button
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/like"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

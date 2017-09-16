@@ -1,0 +1,10 @@
+<resources>
+    <string name="ten_app">Hẹn Hò Sinh Viên</string>
+    <string name="app_name">HenHoSinhVien</string>
+    <string name="pass_word">Password</string>
+    <string name="uer_nam">Username</string>
+    <string name="dang_nhap">ĐĂNG NHẬP</string>
+    <string name="quen_mat_khau"><u>Quên mật khẩu</u></string>
+    <string name="dang_ki"><u>Đăng kí</u></string>
+    <string name="dang_nhap_voi">ĐĂNG NHẬP VỚI</string>
+</resources>
